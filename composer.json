@@ -1,0 +1,23 @@
+{
+  "name": "cenariuv/smart-automation",
+  "description": "Extensible IoT automation platform.",
+  "type": "project",
+  "license": "proprietary",
+  "require": {
+    "php": ">=8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "SmartAutomation\\": "app/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "SmartAutomation\\Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "sort-packages": true,
+    "optimize-autoloader": true
+  }
+}
